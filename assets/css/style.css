@@ -2,12 +2,12 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 20;
   padding: 0;
   background-color: #efefef;
 }
 
-/* Header ------------------------------ */
+/* header ------------------------------ */
 #namelogo {
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
@@ -69,7 +69,7 @@ button:hover {
     background-color: black;
 }
 
-/* hero */
+/* hero banner ---------------------------- */
 
 #hero_image {
 display: block;
@@ -81,4 +81,23 @@ border-radius: 5%;
 border-top-left-radius: 5%;
 border-top-right-radius: 5%;
 
+}
+
+/* about me ---------------------------- */
+
+.about_2_sec {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    gap: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    align-items: center;
+
+    /* align-items: center; */
+
+}
+
+.about_2_sec #image_of_me {
+    width: 300px;
 }
