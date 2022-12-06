@@ -70,7 +70,6 @@ button:hover {
 }
 
 /* hero banner ---------------------------- */
-
 #hero_image {
 display: block;
 padding-top: 9%;
@@ -84,7 +83,6 @@ border-top-right-radius: 5%;
 }
 
 /* about me ---------------------------- */
-
 .about_2_sec {
     display: flex;
     justify-content: center;
@@ -93,11 +91,29 @@ border-top-right-radius: 5%;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     align-items: center;
-
-    /* align-items: center; */
-
 }
 
 .about_2_sec #image_of_me {
     width: 300px;
 }
+
+/* portfolio container -------------------- */
+
+.portfolio_section #laptop_image {
+    width: 55%;
+    margin: 0;
+    align-items: center;
+}
+
+.portfolio_section #project_title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.portfolio_apps {
+    display: flex;
+    justify-content: center;
+}
+

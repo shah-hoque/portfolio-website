@@ -29,3 +29,4 @@ The only functionality this application has is it's ability to link to external 
 
 ## Credits
 Author: Shohidul Shah Hoque
+<a href="https://www.freepik.com/free-psd/isolated-realistic-laptop_28427060.htm#query=macbook%20mockup&position=47&from_view=keyword">Image by Vectonauta</a> on Freepik
