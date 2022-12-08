@@ -6,10 +6,10 @@
   padding: 0;
   background-color: #efefef;
   scroll-behavior: smooth;
-
+  caret-color: transparent;
 }
 
-/* header ------------------------------ */
+/* main logo / nav ---------------------- */
 #namelogo {
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
@@ -81,11 +81,10 @@ width: 60%;
 border-radius: 5%;
 border-top-left-radius: 5%;
 border-top-right-radius: 5%;
-
 }
 
 /* about me ---------------------------- */
-.about_2_sec {
+.about_me_sec {
     display: flex;
     justify-content: center;
     padding: 6%;
@@ -95,7 +94,7 @@ border-top-right-radius: 5%;
     align-items: center;
 }
 
-.about_2_sec #image_of_me {
+.about_me_sec #image_of_me {
     width: 300px;
 }
 
@@ -133,8 +132,89 @@ border-top-right-radius: 5%;
     text-align: center;
     gap: 2rem;
     padding-bottom: 5%;
+}
 
-    
+
+/* media query -------------------- */
+@media (max-width: 1000px) {
+body {
+    color: blue;
+}
+
+/* m_q main logo / nav ------------------ */
+
+* {
+    box-sizing: border-box;
+    margin: 20;
+    padding: 0;
+    background-color: #efefef;
+    scroll-behavior: smooth;
+    caret-color: transparent;
+  }
+  
+header {
+    display: grid;
+    nav-left: auto;
+    padding: px 0%;
+  }
+
+
+
+
+/* m_q hero banner ------------------ */
+#hero_image {
+    display: none;
+}
+
+/* m_q about me ------------------ */
+.about_me_sec {
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.about_me_sec #image_of_me {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+/* m_q portfolio container -------------- */
+.portfolio_container {
+    display: grid;
+    justify-content: center;
+}
+
+.portfolio_container img {
+    border-radius: 6%;
+}
+
+
+/* m_q contact me -------------------- */
+.contact_me {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
