@@ -141,7 +141,9 @@ border-top-right-radius: 5%;
 /* m_q main logo / nav ------------------ */
 header {
     display: grid;
-    justify-content: center;
+    justify-content:center;
+    flex-direction:row;
+
 }
 
 #namelogo {
@@ -150,8 +152,10 @@ header {
 
 .nav_links {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    white-space: nowrap;
+
 }
 
 
