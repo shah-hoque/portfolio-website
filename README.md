@@ -1,6 +1,6 @@
 # portfolio-website
 
-Last updated on: 6th Dec 2022. Last updated by: Shohidul Shah Hoque
+Last updated on: 8th Dec 2022. Last updated by: Shohidul Shah Hoque
 __________
 
 ## Description
@@ -18,7 +18,9 @@ The initial tasks set out to create this portfolio website included the followin
     - My applications won't be linked yet (as allowed by my tutor)
 
 What I've learned when developing this application:
-- 
+- How to use media query
+- Use of flexbox
+
 
 ## Installation
 There are no requirements needed to load this application other than opening it on a web browser via a computer or a phone
@@ -29,4 +31,3 @@ The only functionality this application has is it's ability to link to external 
 
 ## Credits
 Author: Shohidul Shah Hoque
-<a href="https://www.freepik.com/free-psd/isolated-realistic-laptop_28427060.htm#query=macbook%20mockup&position=47&from_view=keyword">Image by Vectonauta</a> on Freepik

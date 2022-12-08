@@ -137,9 +137,6 @@ border-top-right-radius: 5%;
 
 /* media query -------------------- */
 @media (max-width: 1000px) {
-body {
-    color: blue;
-}
 
 /* m_q main logo / nav ------------------ */
 header {
