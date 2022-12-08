@@ -142,29 +142,27 @@ body {
 }
 
 /* m_q main logo / nav ------------------ */
-
-* {
-    box-sizing: border-box;
-    margin: 20;
-    padding: 0;
-    background-color: #efefef;
-    scroll-behavior: smooth;
-    caret-color: transparent;
-  }
-  
 header {
     display: grid;
-    nav-left: auto;
-    padding: px 0%;
-  }
+    justify-content: center;
+}
 
+#namelogo {
+    margin: auto;
+}
 
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* m_q hero banner ------------------ */
 #hero_image {
     display: none;
 }
+
 
 /* m_q about me ------------------ */
 .about_me_sec {
@@ -185,6 +183,7 @@ header {
     padding-bottom: 1%;
 }
 
+
 /* m_q portfolio container -------------- */
 .portfolio_container {
     display: grid;
@@ -200,22 +199,5 @@ header {
 .contact_me {
     font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
